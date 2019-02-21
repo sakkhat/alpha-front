@@ -1,0 +1,9 @@
+#user-avatar {
+	max-width: 310px; max-height: 310px;
+	margin: 0px 0px 5px 0px;
+
+}
+#user-avatar img {
+	width: 100%; height: auto;
+	border-radius: 10px;
+}
