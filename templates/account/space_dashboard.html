@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Space Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../../css/account/space_dashboard.css">
+</head>
+<body style="background-color: #40A784;">
+
+    <div id="site-nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+            <a class="navbar-brand" href="javascript:void(0)" id="sakkhat-brand-link">
+                <img src="../../res/sakkhat_black.png">
+            </a>
+
+          
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" 
+                data-target="#navb" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+         
+
+            <div class="collapse navbar-collapse" id="navb">
+                <form class="form-inline my-2 my-lg-0 mr-auto">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+                </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+
+                    <div class="nav-link btn-group">
+                        <div class="dropdown-toggle" data-toggle="dropdown" 
+                            style="cursor: pointer; color: white;"> 
+                            <img  src="../../res/tony.jpg" style="width: 25px; border-radius: 5px;">
+                        </div>
+                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                            <a class="list-group-item list-group-item-action" href="#">User Name</a>
+                            <a class="list-group-item list-group-item-action" href="#">Settings</a>
+                            <a class="list-group-item list-group-item-action" href="#">Signout</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>    
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9">
+
+                <div id="banner-slider" class="carousel slide" data-ride="carousel">
+                    
+                    <ul class="carousel-indicators">
+                        <li data-target="#banner-slider" data-slide-to="0"></li>
+                        <li data-target="#banner-slider" data-slide-to="1"></li>
+                        <li data-target="#banner-slider" data-slide-to="2"></li>
+                    </ul>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="banner-slider-item">
+                                <img src="../../res/bing (1).jpg" height="350px">
+                            </div>
+                            
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="banner-slider-item">
+                                <img src="../../res/bing (2).jpg" height="350px">
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="banner-slider-item">
+                                <img src="../../res/bing (3).jpg" height="350px">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#banner-slider" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#banner-slider" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+                <div class="list-group-item">
+                    <h3>Space Name</h3>
+                    <p>This is space description</p>    
+                </div>
+
+                <div class="list-group-item">
+                    <div class="category-tags">
+                        <a class="btn btn-outline-dark disable" href="#">Men Fashion</a>
+                        <a class="btn btn-outline-dark disable" href="#">Gadgets</a>
+                        <a class="btn btn-outline-dark disable" href="#">Women Fashion</a>
+                        <a class="btn btn-outline-dark disable" href="#">Accessories</a>
+                    </div><br>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 70%">Good React</div>
+                    </div><br>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 20%">Bad React</div>
+                    </div><br>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" style="width: 10%">Fake React</div>
+                    </div>
+                </div>
+
+                <div class="list-group-item bg-light">
+                    <h6>Supply from: Sylhet, Dhaka</h6>
+                    <h6>Supply to: Sylhet, Dhaka, Chittagong via SA Poribahan</h6>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="list-group">
+                    <h4 class="list-group-item disable bg-info">Trending</h4>
+                    <a class="list-group-item" href="">Apex</a>
+                    <a class="list-group-item" href="">Easy</a>
+                    <a class="list-group-item" href="">Lotto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            
+        </div>
+    </div>
+
+    <!-- JQuery and Bootstrap Library -->
+    <script type="text/javascript" src="../../lib/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/popper.min.js"></script>
+    <script type="text/javascript" src="../../lib/js/bootstrap.min.js"></script>
+
+</body>
+</html>
