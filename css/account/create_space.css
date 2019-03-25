@@ -1,0 +1,11 @@
+.space-form textarea {
+	height: 200px;
+}
+
+.space-form button {
+	margin: 10px 0px 5px 0px;	
+}
+.space-form input, textarea, select {
+	margin: 10px 0px 5px 0px;
+}
+

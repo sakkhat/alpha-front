@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>signin</title>
+    <title>New Product Post</title>
     <link rel="stylesheet" type="text/css" href="../../lib/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/base.css">
-    <link rel="stylesheet" type="text/css" href="../../css/account/sign_in.css">
+    <link rel="stylesheet" type="text/css" href="../../css/index/new_product_post.css">
 </head>
 <body>
 
@@ -62,29 +62,24 @@
         </nav>
     </div>
 
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
-                <form class="sign-in-form">
-                    <input type="text" name="phone" class="form-control" placeholder="Phone">
-                    <input type="password" name="password" class="form-control" placeholder="Password">
-                    <input type="submit" value="Sign In" class="btn btn-success btn-block">
+                <form class="new-post-form">
+                    <input type="text" name="title" placeholder="Title" class="form-control">
+                    <textarea class="form-control" name="description" placeholder="Description"></textarea>
+                    <input type="number" name="price" placeholder="Price (TK)" class="form-control">
+                    <input type="select" class="form-control" placeholder="Category Tag">
+                    <input type="submit" value="Create Post" class="btn btn-success btn-block">
                 </form>
-
             </div>
-            
             <div class="col-md-6"></div>
-            
         </div>
-        
     </div>
-
-
-    <!-- JQuery and Bootstrap Library -->
-    <script type="text/javascript" src="../../lib/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../../lib/js/popper.min.js"></script>
-    <script type="text/javascript" src="../../lib/js/bootstrap.min.js"></script>
+	<!-- JQuery and Bootstrap Library -->
+	<script type="text/javascript" src="../../lib/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../lib/js/popper.min.js"></script>
+	<script type="text/javascript" src="../../lib/js/bootstrap.min.js"></script>
 
 </body>
 </html>
